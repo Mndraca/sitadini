@@ -16,102 +16,160 @@
 }
 .column {
     float: left;
-    padding: 20px;
-    justify-content: center;
+    padding: 10px;
+    padding-right: 0;
     flex: 33.33%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .column1 {
+    float: left;
+    padding: 10px;
+    padding-left: 0%;
+    flex: 33.33%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
-  
   }
   
   .text {
     flex: 100%;
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   .photo3 {
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 0;
+    max-width: 100%;
     width: 350px;
-    height: 300px;
-    justify-content: space-evenly;
+    height: 280px;
+    
    
   }
+
   .photo4 {
     padding-top: 20px;
     padding-bottom: 10px;
     padding-right: 75px;
+    max-width: 100%;
     width: 350px;
-    height: 300px;
-    justify-content: space-evenly;
+    height: 280px;
+    
   
 }
   .photo5 {
     padding-top: 20px;
     padding-bottom: 10px;
     padding-right:0;
+    max-width: 100%;
     width: 350px;
-    height: 300px;
-    justify-content: space-evenly;
+    height: 280px;
     
+  }
+  .text1{
+    width: 350px;
+    height: 200px;
+    justify-content: space-between;
+  
+    
+  }
+  .text2{
+    width: 350px;
+    height: 200px;
+    justify-content: space-between;
+  
+
+  }
+  .text3{
+    width: 350px;
+    height: 200px;
+    justify-content: space-between;
 
   }
   .circle5 {
-    width: 280px;
-    height: 280px;
-    border-radius: 100%;
+    width: 350px; 
+    height: 350px;
     justify-content: space-between;
     padding-top: 20px;
-    padding-right: 20px;
-    position: relative;
+    padding-left: 20px;
+    clip-path: circle(40%);
+    max-width: 100%;
+    margin-top: 200px;
+    margin-bottom: 0;
+    margin-left: 10px;
    
 
   }
   .circle6 {
-    width: 280px;
-    height: 280px;
-    border-radius: 100%;
+    width: 350px;
+    height: 350px;
     justify-content: space-between;
     padding-top: 20px;
     padding-left: 20px;
+    clip-path: circle(40%);
+    max-width: 100%;
+    margin-top: 200px;
+    margin-bottom: 0;
+    margin-left: 10px;
     
    
   }
   .circle7 {
-    width: 280px;
-    height: 280px;
-    border-radius: 100%;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-right: 20px;
-    
-  }
-  .circle8 {
-    width: 280px;
-    height: 280px;
-    border-radius: 100%;
+
+    width: 350px; 
+    height: 350px;
     justify-content: space-between;
     padding-top: 20px;
     padding-left: 20px;
+    clip-path: circle(40%);
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+  }
+  .circle8 {
+
+    width: 350px; 
+    height: 350px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    clip-path: circle(40%);
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+  }
+  .circle0 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
     
   }
   .circle {
-    display: flex;
+    display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    position: relative;
+    
   
   }
+  .parentContainer {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    }
 
   ul {
     list-style-type: none;
@@ -146,25 +204,33 @@ body {
   font-size: 30px;
   
 }
-.parentContainer {
-  position: relative;
-  text-align: center;
-  color: white;
-  }
+
+
   .centered {
     position: absolute;
-    top: 40%;
-    left: 5%;
+    top: 60%;
+    left: 15%;
+    right: 15%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+  }
+
+    .centered1 {
+      position: absolute;
+      top: 40%;
+      left: 15%;
+      right: 15%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
 
     }
     .parentContainer1 {
-      position: relative;
+      display: block;
       text-align: left;
       color: white;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 40px;
+      position: relative;
       }
 
       .bottom-right {
@@ -179,17 +245,20 @@ body {
         color: black;
         padding-top: 30px;
       }
-      .circle0{
-        display:flex;
-        flex-direction:inherit;
-        flex-wrap: wrap;
-        justify-content:flex-start;
-        position: relative;
+        .parentContainer {
+          display: flex;
+          color: white;
+          position: relative;
+          }
+      
+    
+
+      .logo .navbar {
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
       }
 
-      .logo, .navbar {
-        text-align: justify;
-      }
      @media (min-width: 600px) {
       p {
         font-size: 1.25rem;
@@ -203,5 +272,15 @@ body {
       
       }
      }
+
+     .logo1{
+      max-width: 100%;
+     }
      
+     .conteiner1 {
+
+      width: 80%;
+      margin: auto;
+      border: 1px solid red;
+     }
 

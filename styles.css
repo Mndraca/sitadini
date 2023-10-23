@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-around;
     font-family: sans-serif;
+    width: 100%;
+    text-transform: uppercase;
 }
 
 .content{
@@ -270,3 +272,4 @@ body {
       border: 1px solid red;
      }
 
+     

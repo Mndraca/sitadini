@@ -184,6 +184,7 @@ body {
  vertical-align: middle;
  background: linear-gradient( 180deg, white, pink);
  
+ 
 }
 .link{
   color: black;
@@ -272,5 +273,14 @@ body {
       margin: auto;
       border: 1px solid: white;
      }
+
+     @media (min-width: 320px) and (max-width: 480px) {
+      .conteiner1  {
+       background: white;
+      }
+    }
+
+
+     
 
      

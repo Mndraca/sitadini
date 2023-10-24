@@ -1,19 +1,20 @@
 .navbar {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     font-family: sans-serif;
     width: 100%;
-    text-transform: uppercase;
+   
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 800px;
+    width: 80%;
     font-family: sans-serif;
     font-size: 1rem;
+    margin-bottom: 30px;
 
 }
 .column {
@@ -31,6 +32,7 @@
     flex: 33.33%;
     margin-left: 0;
     margin-right: 0;
+
   }
   .row {
     display: flex;
@@ -183,6 +185,7 @@ body {
  justify-content: center;
  vertical-align: middle;
  background: linear-gradient( 180deg, white, pink);
+
  
  
 }
@@ -257,21 +260,30 @@ body {
       
     
 
-      .logo .navbar {
-        justify-content: space-between;
-        width: 100%;
-        height: auto;
-      }
+    
 
-     .logo1{
-      max-width: 100%;
-     }
+     .logo1 {
+      width: 100px;
+      height: 50px;
+      margin-left: 0;
+      margin-bottom: 0;
+
+     
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+
+
      
      .conteiner1 {
 
       width: 85%;
-      margin: auto;
-      border: 1px solid: white;
+      margin-top: 100px;
+      border: 1px solid red;
      }
 
      @media (min-width: 320px) and (max-width: 480px) {
@@ -280,6 +292,20 @@ body {
       }
     }
 
+    #beyonce {
+     
+      object-fit: cover;
+
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      nav.navbar {
+        background-color: white;
+      }
+      
+    }
+
+  
 
      
 

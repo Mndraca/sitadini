@@ -42,7 +42,7 @@
   }
   
   .text {
-    flex: 100%;
+    flex: row;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -52,9 +52,9 @@
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 0;
+    padding-right: 0;
     max-width: 100%;
-    width: 350px;
-    height: 280px;
+   
     
    
   }
@@ -62,10 +62,11 @@
   .photo4 {
     padding-top: 20px;
     padding-bottom: 10px;
-    padding-right: 75px;
+    padding-right: 10px;
+    padding-left: 10px;
     max-width: 100%;
-    width: 350px;
-    height: 280px;
+   
+    
     
   
 }
@@ -73,9 +74,10 @@
     padding-top: 20px;
     padding-bottom: 10px;
     padding-right:0;
+    padding-left: 0;
     max-width: 100%;
-    width: 350px;
-    height: 280px;
+   
+   
     
   }
   .text1{
@@ -99,60 +101,45 @@
 
   }
   .circle5 {
-    width: 400px; 
-    height: 400px;
+    
     justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 0;
     clip-path: circle(37%);
     max-width: 100%;
     margin-top: 200px;
     margin-bottom: 0;
-    margin-left: 10px;
+   
    
 
   }
   .circle6 {
-    width: 400px;
-    height: 400px;
+    
     justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 0;
     clip-path: circle(37%);
     max-width: 100%;
     margin-top: 200px;
     margin-bottom: 0;
-    margin-left: 10px;
+   
     
    
   }
   .circle7 {
 
-    width: 400px; 
-    height: 400px;
+    
     justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 0;
     clip-path: circle(37%);
     max-width: 100%;
     margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    margin-bottom: 0;
     
   }
   .circle8 {
 
-    width: 400px; 
-    height: 400px;
+    
     justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 0;
     clip-path: circle(37%);
     max-width: 100%;
     margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 10px;
-
+    margin-bottom: 0;
     
   }
   .circle0 {

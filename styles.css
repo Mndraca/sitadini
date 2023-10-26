@@ -14,7 +14,7 @@
     width: 80%;
     font-family: sans-serif;
     font-size: 1rem;
-    /*margin-bottom: 30px;*/
+    
 
 }
 .column {
@@ -61,7 +61,7 @@
 
   .photo4 {
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 0;
     padding-right: 10px;
     padding-left: 10px;
     max-width: 100%;
@@ -72,7 +72,7 @@
 }
   .photo5 {
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 0;
     padding-right:0;
     padding-left: 0;
     max-width: 100%;
@@ -82,22 +82,27 @@
   }
   .text1{
     width: 350px;
-    height: 200px;
+    height: 50px;
     justify-content: space-between;
+    margin-bottom: 10%;
   
     
   }
   .text2{
     width: 350px;
-    height: 200px;
+    height: 50px;
     justify-content: space-between;
+    margin-bottom: 10%;
+    padding-right: 0;
   
 
   }
   .text3{
     width: 350px;
-    height: 200px;
+    height: 50px;
     justify-content: space-between;
+    margin-bottom: 10%;
+    margin-left: 20px;
 
   }
   .circle5 {
@@ -107,6 +112,7 @@
     max-width: 100%;
     margin-top: 200px;
     margin-bottom: 0;
+    padding-top: 0;
    
    
 
@@ -118,7 +124,7 @@
     max-width: 100%;
     margin-top: 200px;
     margin-bottom: 0;
-   
+   padding-top: 0;
     
    
   }
@@ -134,7 +140,6 @@
   }
   .circle8 {
 
-    
     justify-content: space-between;
     clip-path: circle(37%);
     max-width: 100%;
@@ -147,6 +152,7 @@
     flex-direction: row;
     flex-wrap:nowrap;
     justify-content:flex-start;
+    padding-top: 0%;
     
   }
   .circle {
@@ -168,7 +174,7 @@
 }
 
 body {
- margin: 10px;
+ margin: 50px;
  justify-content: center;
  vertical-align: middle;
  background: linear-gradient( 180deg, white, pink);
@@ -243,6 +249,7 @@ body {
           display: flex;
           color: white;
           position: relative;
+      
           }
       
     
@@ -282,6 +289,12 @@ body {
 
     @media (min-width: 320px) and (max-width: 480px) {
       nav.navbar {
+        background-color: white;
+      }
+      
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+      .parentContainer {
         background-color: white;
       }
       
